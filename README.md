@@ -1,6 +1,6 @@
 # Algorithms for Causal Reasoning in Probability Trees
 
-This repository is a fork of DeepMind's implementation of [https://github.com/deepmind/deepmind-research/tree/master/causal_reasoning](probability trees).
+This repository is a fork of DeepMind's implementation of [probability trees](https://github.com/deepmind/deepmind-research/tree/master/causal_reasoning).
 
 
 Probability trees are one of the simplest models of causal generative processes.
