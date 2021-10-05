@@ -1,0 +1,193 @@
+digraph g {
+	graph [bgcolor=White nodesep=0.1 rankdir=LR ranksep=0.3 sep=0]
+	node [fontsize=10 height=0.1 margin="0.1, 0.02" shape=box style=rounded width=0.5]
+	edge [fontsize=10]
+	63 [label="Root = 1
+p = 1" fillcolor=WhiteSmoke style="filled, rounded"]
+	31 [label="Court = NoOrder
+p = 0" fillcolor=Plum style="filled, rounded"]
+	15 [label="Captain = NoSignal
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	7 [label="RiflemanA = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	3 [label="RiflemanB = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	1 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	3 -> 1 [label=1]
+	2 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	3 -> 2 [label=0]
+	7 -> 3 [label=1]
+	6 [label="RiflemanB = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	4 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	6 -> 4 [label=0]
+	5 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	6 -> 5 [label=1]
+	7 -> 6 [label=0]
+	15 -> 7 [label=1]
+	14 [label="RiflemanA = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	10 [label="RiflemanB = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	8 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	10 -> 8 [label=0]
+	9 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	10 -> 9 [label=1]
+	14 -> 10 [label=1]
+	13 [label="RiflemanB = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	11 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	13 -> 11 [label=0]
+	12 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	13 -> 12 [label=1]
+	14 -> 13 [label=0]
+	15 -> 14 [label=0]
+	31 -> 15 [label=0]
+	30 [label="Captain = Signal
+p = 0" fillcolor=Plum style="filled, rounded"]
+	22 [label="RiflemanA = NoShoot
+p = 0" fillcolor=Plum style="filled, rounded"]
+	18 [label="RiflemanB = NoShoot
+p = 0" fillcolor=Plum style="filled, rounded"]
+	16 [label="Prisoner = Alive
+p = 0" fillcolor=AquaMarine style="filled, rounded"]
+	18 -> 16 [label=1]
+	17 [label="Prisoner = Dead
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	18 -> 17 [label=0]
+	22 -> 18 [label=1]
+	21 [label="RiflemanB = Shoot
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	19 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	21 -> 19 [label=0]
+	20 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	21 -> 20 [label=1]
+	22 -> 21 [label=0]
+	30 -> 22 [label=1]
+	29 [label="RiflemanA = Shoot
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	25 [label="RiflemanB = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	23 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	25 -> 23 [label=0]
+	24 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	25 -> 24 [label=1]
+	29 -> 25 [label=0]
+	28 [label="RiflemanB = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	26 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	28 -> 26 [label=0]
+	27 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	28 -> 27 [label=1]
+	29 -> 28 [label=1]
+	30 -> 29 [label=0]
+	31 -> 30 [label=1]
+	63 -> 31 [label=0]
+	62 [label="Court = Order
+p = 1" fillcolor=Plum style="filled, rounded"]
+	46 [label="Captain = NoSignal
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	38 [label="RiflemanA = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	34 [label="RiflemanB = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	32 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	34 -> 32 [label=1]
+	33 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	34 -> 33 [label=0]
+	38 -> 34 [label=1]
+	37 [label="RiflemanB = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	35 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	37 -> 35 [label=0]
+	36 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	37 -> 36 [label=1]
+	38 -> 37 [label=0]
+	46 -> 38 [label=1]
+	45 [label="RiflemanA = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	41 [label="RiflemanB = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	39 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	41 -> 39 [label=0]
+	40 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	41 -> 40 [label=1]
+	45 -> 41 [label=1]
+	44 [label="RiflemanB = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	42 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	44 -> 42 [label=0]
+	43 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	44 -> 43 [label=1]
+	45 -> 44 [label=0]
+	46 -> 45 [label=0]
+	62 -> 46 [label=0]
+	61 [label="Captain = Signal
+p = 1" fillcolor=Plum style="filled, rounded"]
+	53 [label="RiflemanA = NoShoot
+p = 1" fillcolor=Plum style="filled, rounded"]
+	49 [label="RiflemanB = NoShoot
+p = 1" fillcolor=Plum style="filled, rounded"]
+	47 [label="Prisoner = Alive
+p = 1" fillcolor=AquaMarine style="filled, rounded"]
+	49 -> 47 [label=1]
+	48 [label="Prisoner = Dead
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	49 -> 48 [label=0]
+	53 -> 49 [label=1]
+	52 [label="RiflemanB = Shoot
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	50 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	52 -> 50 [label=0]
+	51 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	52 -> 51 [label=1]
+	53 -> 52 [label=0]
+	61 -> 53 [label=1]
+	60 [label="RiflemanA = Shoot
+p = 0" fillcolor=LightCoral style="filled, rounded"]
+	56 [label="RiflemanB = NoShoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	54 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	56 -> 54 [label=0]
+	55 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	56 -> 55 [label=1]
+	60 -> 56 [label=0]
+	59 [label="RiflemanB = Shoot
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	57 [label="Prisoner = Alive
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	59 -> 57 [label=0]
+	58 [label="Prisoner = Dead
+p = 0" fillcolor=WhiteSmoke style="filled, rounded"]
+	59 -> 58 [label=1]
+	60 -> 59 [label=1]
+	61 -> 60 [label=0]
+	62 -> 61 [label=1]
+	63 -> 62 [label=1]
+}
